@@ -1,0 +1,17 @@
+.sidebar {
+    @apply flex items-center flex-col justify-between border-r-2;
+    border-color: rgba(255, 255, 255, .1);
+    padding: 1.25rem;
+
+    svg {
+        // @apply text-grey duration-300;
+        margin-top: 32px;
+    }
+
+    a {
+        &hover {
+            color: rgb(118, 118, 118);
+            scale: 1.05;
+        }
+    }
+}
