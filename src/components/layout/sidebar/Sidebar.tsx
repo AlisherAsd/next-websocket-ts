@@ -4,7 +4,7 @@ import styles from "./Sidebar.module.scss";
 import Link from "next/link";
 import { SIDEBAR_ROUTES } from "@/routes";
 
-const isLoggedIn = false;
+const isLoggedIn = true;
 
 
 export function Sidebar() {
