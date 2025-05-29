@@ -7,6 +7,10 @@ export const metadata: Metadata = {
     ...NO_INDEX_PAGE
 }
 
+/**
+ * Страница регистрации
+ * Использует переиспользуемый компонент Auth
+*/
 export default function RegisterPage() {
     return <Auth type="register" />
 }

@@ -8,6 +8,10 @@ interface IAuth {
     type?: 'login' | 'register',
 }
 
+/**
+ * Переиспользуемый компонент для авторизации и регистрации
+ * @param type - тип авторизации (login или register ...)
+*/
 export default function Auth( { type }: IAuth ) {
     return ( 
         <div className="flex w-screen h-full">

@@ -3,6 +3,9 @@ import ChatList from "@/components/screens/chats/ChatList";
 import CurrentUser from "@/components/screens/chats/CurrentUser";
 import Image from "next/image";
 
+/**
+ * Страница чатов
+*/
 export default function ChatsPage() {
   return (
     <div

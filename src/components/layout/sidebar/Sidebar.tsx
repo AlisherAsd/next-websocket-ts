@@ -6,7 +6,11 @@ import { SIDEBAR_ROUTES } from "@/routes";
 
 const isLoggedIn = true;
 
-
+/**
+ * Компонент боковой панели
+ * Отображает логотип и ссылки на основные страницы приложения
+ * Использует роуты из SIDEBAR_ROUTES
+*/
 export function Sidebar() {
 
   if (!isLoggedIn) {

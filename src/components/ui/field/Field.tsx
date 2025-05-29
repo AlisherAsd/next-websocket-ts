@@ -5,7 +5,13 @@ import { TypeInputProps } from "./Field.types";
 import styles from './Field.module.scss'
 
 
-/** Кастомный input */
+/**
+ * Кастомный input
+ * @param error - ошибка
+ * @param style - стили
+ * @param Icon - иконка из lucide-react
+ * @param className - классы
+*/
 export const Field = forwardRef<HTMLInputElement, TypeInputProps> (
     ({ error, style, Icon, className, ...rest }, ref) => {
         return (
